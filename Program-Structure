@@ -1,0 +1,40 @@
+Program Structure:
+
+
+lib/
+├── main.dart
+├── app.dart
+├── config/
+│   ├── theme/
+│   │   ├── app_theme.dart
+│   │   └── tokyo_night_theme.dart
+│   └── constants/
+│       └── app_constants.dart
+├── core/
+│   ├── models/
+│   │   └── chat_message.dart
+│   ├── services/
+│   │   └── chat_service.dart
+│   └── providers/
+│       └── chat_provider.dart
+├── features/
+│   ├── chat/
+│   │   ├── screens/
+│   │   │   └── chat_screen.dart
+│   │   ├── widgets/
+│   │   │   ├── chat_input_field.dart
+│   │   │   ├── chat_message_bubble.dart
+│   │   │   └── chat_app_bar.dart
+│   │   └── controllers/
+│   │       └── chat_controller.dart
+│   └── navigation/
+│       ├── screens/
+│       │   ├── settings_screen.dart
+│       │   └── help_screen.dart
+│       └── widgets/
+│           └── app_drawer.dart
+└── shared/
+    ├── widgets/
+    │   └── app_icon.dart
+    └── utils/
+        └── extensions.dart
